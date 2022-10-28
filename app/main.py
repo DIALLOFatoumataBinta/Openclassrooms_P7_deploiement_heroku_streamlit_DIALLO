@@ -384,7 +384,7 @@ def main():
             cols1,cols2 = st.columns(2)
             with cols1:     
                 clt_score = X['Note'].values[0]
-                if clt_score > 14:
+                if clt_score > 13:
                     st.markdown(f"Ce client a une note de **{clt_score:02d}/20** pour rembourser son crédit. Le risque de défaut de paiement de ce client est **faible**.")
                 else:
                     st.markdown(f"Ce client a une note de **{clt_score:02d}/20** pour rembourser son crédit. Le risque de défaut de paiement de ce client est **élevé**.")
