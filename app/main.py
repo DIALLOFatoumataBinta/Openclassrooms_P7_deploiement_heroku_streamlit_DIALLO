@@ -302,7 +302,7 @@ def main():
         
         exp = explanation.as_list()
         
-        fig = plt.figure()
+        fig=plt.figure(figsize=(8, 10))
         vals = []
         names = []
         
